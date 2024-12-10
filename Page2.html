@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+<div class="container">
+    <div class="item item1">
+        Історія успіху осла
+        <div class="x"> 
+            <img src="Shrek.png" height="100%" width="100%">
+        </div>
+    </div>
+    <div class="item item2">
+        <ul>
+            Чому Осел?
+            <li>Осел — єдиний, хто не боїться Шрека.</li>
+            <li>Магічні здібності Осла: у другій частині...</li>
+            <li>Бо Шрек</li>
+        </ul>
+    </div>
+    <div class="item item3">
+        <video class="full-screen-video" autoplay loop id="background-video">
+            <source src="videoplayback (6).mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="item item4">
+        <img src="Donkey.jpg" height="100%" width="100%" alt="Опис зображення">
+    </div>
+    <div class="item">Це ніколи не Шрекінчится</div>
+    <div class="item item6">
+        <ul class="listOfLinks">
+            <li class="linkedItem link1"><a href="index.html">Сторінка 1</a></li>
+            <li class="linkedItem link2"><a href="Page2.html">Сторінка 2</a></li>
+            <li class="linkedItem"><a href="Page3.html">Сторінка 3</a></li>
+            <li class="linkedItem"><a href="Page4.html">Сторінка 4</a></li>
+            <li class="linkedItem"><a href="Page5.html">Сторінка 5</a></li>
+            <li class="linkedItem"><a href="Grid.html">Grid</a></li>
+            <li class="linkedItem"><a href="Absolute.html">Absolute</a></li>
+        </ul>
+        <div class="y">Це кохання!!!</div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var video = document.getElementById('background-video');
+        video.play();
+    });
+</script>
+</body>
+</html>
